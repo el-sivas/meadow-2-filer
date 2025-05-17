@@ -1,0 +1,13 @@
+= dirs for all users
+Version 1
+
+Creates directories for all users in `users_present` with their name in given directories in `dirs_for_all_users`:
+----
+    users_present:
+      - user1
+      - user2
+      - user3
+    
+    dirs_for_all_users:
+      - location: /path/to/dir
+----
